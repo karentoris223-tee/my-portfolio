@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: moccasin;
+}
+img {
+    padding: 30px;
+    border-radius: 80%;
+    justify-content: flex-start;
+}
+img:hover {
+    cursor: pointer;
+    transition: 2s;
+}
+header {
+    padding: 1rem 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav li {
+    margin: 0 1rem;
+    font-weight: 200;
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 200;
+    font-style: italic;
+    color: black;
+}
+
+nav a:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 18px;
+    text-align: right;
+}
+#About {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNCQ8z0aEXoHaDzam79rccBTG_K48YjSjhofORheyeFQ&s=10);
+    color: aliceblue;
+}
+#Projects {
+    list-style: none;
+    text-decoration: none;
+}
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+section h1, section h2 {
+    margin-bottom: 1rem;
+    list-style: none;
+}
+section p {
+    margin-bottom: 1rem;
+}
+
+section ul li {
+    list-style: none;
+    text-decoration: none;
+}
+button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+}
+button:hover {
+    color: cadetblue;
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    padding: 1rem 0;
+}
